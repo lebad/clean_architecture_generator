@@ -1,0 +1,18 @@
+feature_name: CoolFeature
+target_name: Module1
+
+flowCoordinator: true
+views: 
+    - Confirm
+    - FirstStep
+    - Final
+
+interactor: true
+services:
+    - Auth
+    - Operations
+    - Availability
+    - Storage
+
+assembly: true
+unit_tests: true
